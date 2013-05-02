@@ -20,7 +20,7 @@ module.exports = (BasePlugin) ->
 			{inExtension,outExtension} = opts
 
 			# Check our extensions
-			if inExtension in ['md','markdown'] and outExtension in [null,'html']
+			if inExtension in ['md','markdown']
 				# Requires
 				marked = require('marked')
 				marked.setOptions(config.markedOptions)
