@@ -29,7 +29,7 @@
 		"docpad": "6.x"
 	},
 	"dependencies": {
-        "marked": "~0.2.8"
+        "marked": "git://github.com/muzzley/marked.git#master"
 	},
 	"devDependencies": {
 		"coffee-script": "~1.4.0"
